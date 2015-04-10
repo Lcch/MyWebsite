@@ -9,34 +9,53 @@ body {
 }
 
 .name {
-  margin-top: 10%;
-  font-size: 110px;
+  margin-top: 0;
+  font-size: 100px;
   font-family: 'Source Sans Pro', sans-serif;
 }
 @media only screen and (max-width: 768px) {
   .name {
-    font-size: 80px;
+    font-size: 100px;
   }
+}
+
+.description {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  width: 500px;
+  position: relative;
+  margin-top: 0px auto;
+  overflow: hidden;
+  top: -120px;
+}
+
+.special {
+  position: relative;
+  top: -80px;
 }
 
 .icons {
   width: 500px;
   text-align: center;
   position: relative;
-  margin: 0px auto;
   overflow: hidden;
+  height: auto;
   border-top: 1px dotted #ccc;
-  padding-top: 20px;
-  top: -60px; 
+  padding-top: 10px;
+  top: -40px; 
 }
 .icons a {
   text-decoration: none;
   margin-left: 15px;
 }
+.icons a img {
+  width: 40px;
+  height: 40px;
+}
 
 .content {
   width: 500px;
-  margin: 50px auto;
+  margin: 10px auto;
   overflow: hidden;
 }
 
@@ -49,3 +68,6 @@ p {
   line-height: 1.8;
 }
 
+polygon {
+    fill:#f00 !important;
+}

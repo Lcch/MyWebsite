@@ -22,7 +22,7 @@ body {
 .description {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 15px;
-  width: 500px;
+  width: 560px;
   position: relative;
   margin-top: 0px auto;
   overflow: hidden;
@@ -35,7 +35,7 @@ body {
 }
 
 .icons {
-  width: 500px;
+  width: 560px;
   text-align: center;
   position: relative;
   overflow: hidden;
